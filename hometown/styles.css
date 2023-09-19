@@ -1,0 +1,90 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 1px black;
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.hero-section {
+    background: url("images/kuala-lumpur-landscape.jpg");
+    background-size: cover;
+    height: 500px;
+    display: flex; 
+    flex-direction: column;
+}
+
+
+h1 {
+    margin-top: 45px;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 50px 0 30px 0;  
+}
+
+img {
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+}
+
+.activities-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #CCB8C8;
+    color: #080402;
+    text-shadow: none;
+    padding-bottom: 50px; 
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+li {
+    background-color: white;
+    border-radius: 5px; 
+    padding: 20px; 
+    box-shadow: 10px 10px;
+}
+.info {
+    width: 200px; 
+}
+
+.guide-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px; 
+    border: 5px solid black;
+    margin: 50px 100px;
+    background: #597096;
+    
+}
+
+.guide-section-wrapper {
+    width: 400px;
+    margin-left: 20px;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+.guide-img {
+    width: 200px;
+    height: 250px;
+    border-radius: 4px;
+}
